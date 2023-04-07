@@ -1,7 +1,13 @@
 {
   "appTitle": "Title",
-  "USERNAME": "Username",
-  "PASSWORD": "Password",
-  "Login": "Login",
-  "FORGOT_PASSWORD": "Forgot Password"
+  "LOGIN": "Login",
+  "SIGNUP": "Signup",
+  "FORGOT_PASSWORD": "Forgot Password",
+  "USER_INFO": {
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "MOBILE_NUMBER": "Mobile Number"
+  }
 }

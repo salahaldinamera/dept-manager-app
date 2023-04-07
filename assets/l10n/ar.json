@@ -1,7 +1,13 @@
 {
   "APP_TITLE": "العنوان",
-  "USERNAME": "اسم المستخدم",
-  "PASSWORD": "كلمة المرور",
   "LOGIN": "تسجيل الدخول",
-  "FORGOT_PASSWORD": "نسيت كلمة المرور"
+  "SIGNUP": "تسجيل الاشتراك",
+  "FORGOT_PASSWORD": "نسيت كلمة المرور",
+  "USER_INFO": {
+    "USERNAME": "اسم المستخدم",
+    "PASSWORD": "كلمة المرور",
+    "FIRST_NAME": "الاسم الاول",
+    "LAST_NAME": "الاسم الاخير",
+    "MOBILE_NUMBER": "رقم الجوال"
+  }
 }
