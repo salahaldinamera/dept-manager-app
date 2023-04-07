@@ -1,5 +1,6 @@
 import 'package:dept_manager/l10n/L10n.dart';
 import 'package:dept_manager/l10n/locale_keys.g.dart';
+import 'package:dept_manager/screens/customers/customers-list/customers-list.dart';
 import 'package:dept_manager/screens/login/signin/signin.dart';
 import 'package:dept_manager/screens/login/signup/signup.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -90,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Signin()
+        child: CustomersList()
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
