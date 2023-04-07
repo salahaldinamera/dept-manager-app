@@ -1,6 +1,7 @@
 import 'package:dept_manager/l10n/L10n.dart';
 import 'package:dept_manager/l10n/locale_keys.g.dart';
 import 'package:dept_manager/screens/login/signin/signin.dart';
+import 'package:dept_manager/screens/login/signup/signup.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
