@@ -1,3 +1,7 @@
 {
-  "appTitle": "العنوان"
+  "APP_TITLE": "العنوان",
+  "USERNAME": "اسم المستخدم",
+  "PASSWORD": "كلمة المرور",
+  "LOGIN": "تسجيل الدخول",
+  "FORGOT_PASSWORD": "نسيت كلمة المرور"
 }
