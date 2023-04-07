@@ -1,3 +1,7 @@
 {
-  "appTitle": "Title"
+  "appTitle": "Title",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "Login": "Login",
+  "FORGOT_PASSWORD": "Forgot Password"
 }
