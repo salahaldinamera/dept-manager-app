@@ -1,7 +1,19 @@
+import 'package:dept_manager/l10n/L10n.dart';
+import 'package:dept_manager/l10n/locale_keys.g.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+  runApp(
+      EasyLocalization(
+          supportedLocales: L10n.all,
+          path: 'assets/l10n',
+          fallbackLocale: L10n.all[0],
+          child: const MyApp()
+      )
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -25,6 +37,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      localizationsDelegates:context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
     );
   }
 }
@@ -73,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text(LocaleKeys.appTitle.tr()),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
